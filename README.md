@@ -2,7 +2,17 @@
 
 ## Overview
 
+## Overview
+
 The AI Brochure Generator is a Python application that automatically creates company brochures by scraping content from a company's landing page and using a Generative AI model (Google's Gemini via an OpenAI-compatible API) to synthesize the information. The application provides a user-friendly web interface built with Gradio, allowing users to input a company name, its landing page URL, and select the desired language (English or Thai) for the brochure.
+
+**Course Inspiration and Modifications:**
+
+This project is inspired by and builds upon concepts learned in the Udemy course **"LLM Engineering: Master AI, Large Language Models & Agents" by Ed Donner**. While the foundational idea of generating brochures using LLMs and web scraping comes from the course, this version incorporates several key modifications and custom features:
+
+* **AI Model Adaptation:** The primary AI model has been switched from OpenAI's GPT or Anthropic's Claude (as explored in the course) to **Google's Gemini model**, accessed via its OpenAI-compatible API endpoint.
+* **Thai Language Compatibility:** The application has been enhanced to support brochure generation in **Thai** language.
+* **Improved User Interface:** The Gradio UI has been refined for a more structured and user-friendly experience.
 
 ## Features
 
@@ -84,3 +94,5 @@ Before you begin, ensure you have met the following requirements:
 6.  The AI-generated brochure will appear in the "Generated Brochure" section in Markdown format.
 
 ## Demo
+![Image](https://github.com/user-attachments/assets/7393f4e5-24d9-40f8-99f6-a267e87c6c9e)
+![image](https://github.com/user-attachments/assets/3c81a169-b422-4daf-9c22-0452ddc7df09)
